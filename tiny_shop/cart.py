@@ -16,4 +16,4 @@ class Cart:
         return sum(price * qty for price, qty in self.items.values())
 
     def receipt_title(self):
-        return "Your recipt"
+        return "Your receipt"
